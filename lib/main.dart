@@ -3,17 +3,17 @@ import 'package:filemanager/Home.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(MyApp1());
 }
 
-class MyApp extends StatefulWidget {
-  const MyApp({super.key});
+class MyApp1 extends StatefulWidget {
+  const MyApp1({super.key});
 
   @override
-  State<MyApp> createState() => _MyAppState();
+  State<MyApp1> createState() => _MyAppState();
 }
 
-class _MyAppState extends State<MyApp> {
+class _MyAppState extends State<MyApp1> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
